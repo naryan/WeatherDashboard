@@ -1,5 +1,5 @@
 $preSearches = $(`#prev-searches`);
-$forecast = $("#earthforecast");
+$forecast = $(`#earthforecast`);
 
 //empty array for city search history
 var savedCities = [];
