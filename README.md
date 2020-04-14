@@ -1,10 +1,9 @@
-####homework6
-
+### homework6
 URLS:
 Github repo: https://github.com/naryan/homework6/ <br/>
 Live URL: https://naryan.github.io/homework6/
 
-###Homework Description:
+### homework Description:
 
 • The goal of this assignment is to create a working weather dashboard page 
   which will get the weather data from the api.openweathermap.org.  <br/>
