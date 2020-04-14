@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard !</title>
+</head>
+<body>
+    <main>
+        <div class=" head col-lg-11">
+            <h2>Weather Dashboard</h2>
+            <i class="material-icons">wb_sunny</i>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Search for a City:</h5>
+                    <input type="text" placeholder="Search.." name="search2" id="searchinput">
+                    <button type="submit"><i class="fa fa-search" id="searchbtn"></i></button>
+                </div>
+                <div class="mt-5" id="prev-searches"></div>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <div class="card">
+                <div class="card-body">
+                    <div class="container" id="earthforecast">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <div class = "card col-lg-11">
+        <footer class="footer" align="center">
+            <a href="https://www.linkedin.com/in/naryanp" target="_blank" class="mr-4">
+                <img src="./assets/image/icons8-linkedin-50.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/naryan/" target="_blank" class="mr-4">
+                <img src="./assets/image/icons8-github-50.png" alt="github">
+            </a>
+            <a href="mailto:aayanpoudel@gmail.com" target="_blank" class="mr-4">
+                <img src="./assets/image/icons8-gmail-50.png" alt="gmail">
+            </a>
+            <h5>Made by Narayan </h5>
+            <p> &copy; 2020 Narayan Poudel</p>
+        </footer>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
